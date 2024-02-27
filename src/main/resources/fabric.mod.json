@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "blocksort",
+  "version": "1",
+  "name": "BlockSort",
+  "authors": [
+    "anthonytamayo"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.anthonytamayo.BlockSortClient"
+    ]
+  },
+  "mixins": [
+    "blocksort.mixins.json",
+    {
+      "config": "blocksort.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": ">=1.20.2",
+    "fabric-api": "*"
+  }
+}

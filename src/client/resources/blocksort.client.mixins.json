@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.anthonytamayo.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "BlockDetailSaver"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
